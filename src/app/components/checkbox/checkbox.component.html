@@ -1,0 +1,7 @@
+<!-- <input type="checkbox" [(ngModel)]="renderValue" (change)="onClick()" /> -->
+<div  style="margin-top: -14px !important;">
+	<div class="custom-control custom-checkbox">
+		<input class="custom-control-input" [id]="rowData.index" type="checkbox" name="renderValue" [(ngModel)]="renderValue" (change)="onClick()" />
+		<label class="custom-control-label" [for]="rowData.index"></label>
+	</div>
+</div>
